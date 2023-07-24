@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" sizes="512x512" href="android-launchericon-512-512.png">
+    <script>
+    if (‘serviceWorker’ in navigator) {
+    window.addEventListener(‘load’, function() {
+    navigator.serviceWorker.register(‘/sw.js’).then(
+     function(registration) {
+       // Registration was successful
+       console.log(‘ServiceWorker registration successful with scope: ‘, registration.scope); },
+     function(err) {
+       // registration failed :(
+       console.log(‘ServiceWorker registration failed: ‘, err);
+     });
+ });
+}
+    </script>
+</head>
+
+<body>
+
+
+
+<div class="header">
+    <img src='6220802ade7a8830427403.jpeg' alt="" width="1300px" height="450px" />
+
+</div>
+<div id="header2">
+
+    <h1 align="center">САЙТ О СТАРТАПАХ </h1>
+</div>
+<ul id="left">
+
+  <li><a href="#">Меню</a>
+    <ul>
+      <li><a href="novcait.html">Главная</a></li>
+        <li><a href="obstartupah.html">Что такое стартапы?</a></li>
+      <li><a href="uspeh.html">Успешные стартапы</a></li>
+      <li><a href="saity.html">Сайты для стартапов</a></li>
+    </ul>
+  </li>
+</ul>
+<div id="content">
+    <h11> &#10038 Экономика страны достаточно стабильна, чтобы исключить в ближайшей перспективе глобальные кризисы;</h11>
+    <h12> &#10038 Целевая аудитория начинающего бизнеса может быть очень многочисленной;</h12>
+    <h13> &#10038 Некоторые стартапы создают в тех областях рынка, которые почти совсем не освоены;</h13>
+    <h7> Насколько перспективны стартап-проекты в России: </h7>
+    <h9> Инвестиции в новые стартапы в Москве и других городах </h9>
+
+
+    <h6> Успешные стартап проекты в России: </h6>
+    <h5> Располагая свободными деньгами, можно рассматривать различные варианты его преумножения. На фоне дебетовых вкладов, вложений в ценные бумаги и других инструментов собственников капитала часто привлекает развивающийся перспективный бизнес. Это стартап-проекты, или просто стартапы (startup). Благодаря внешней финансовой поддержке такие проекты развиваются, после чего инвесторы получают прибыль от вложений. </h5>
+    <h8> Российская экономика находится в постоянном движении, изменяется и преобразовывается. Многие области рынка остаются малоосвоенными, некоторые сегменты только начинают развиваться. На практике это означает, что с определённой точки зрения создавать в РФ стартапы — даже перспективнее, чем в США или в странах ЕС. Необходимо лишь провести анализ специфики и показателей проекта, чтобы оценить его потенциал. </h8>
+    <h10> И российские, и зарубежные инвесторы ищут способ вложить деньги, чтобы получить высокую прибыль при минимальных рисках. Москва и другие города-миллионники — центры сосредоточения инновационных проектов, хотя иногда такие проекты стартуют в небольших населённых пунктах. Факторы, которые делают инвестирование выгодным:</h10>
+    <img src='gif-startup-rocket.gif' width=250px height=300px align="left" hspace="5" vspace="10">
+
+</div>
+<div id="footer">
+    <h18> Наши контакты: </h18>
+    <h19> Email: hangildin.amir@yandex.ru </h19>
+    <h20> Телефон: 89659278345 </h20>
+    <form action="baza.php" method="post">
+      <p><input class="text" name="userName" placeholder="Введите мобильный номер" size="18"  /></p>
+      <p><input class="text" name="userName" placeholder="Введите имя" size="18"  /></p>
+      <p><input class="text1" name="userName" placeholder="Напишите отзыв" size="18"  /></p>
+    </form>
+</div>
+
+
+</body>
+</html>
